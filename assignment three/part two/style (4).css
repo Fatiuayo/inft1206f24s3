@@ -2,4 +2,13 @@ html {
   font-family: sans-serif;
 }
 
-/* Your CSS below here */
+/* Styling for the cool box */
+.cool-box {
+  background-color: lightblue;
+  border: 2px solid blue;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+  margin: 0 auto;
+}
