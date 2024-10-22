@@ -1,0 +1,90 @@
+/* 
+   Name: Fatiu Mufutau
+   File: styles.css
+   Date: 21 October 2024
+   Description: CSS styling for layout page following the MDN "Fundamental Layout Comprehension" tutorial.
+*/
+
+body {
+  background-color: #fff;
+  color: #333;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.logo {
+  font-size: 2em;
+  text-align: center;
+  padding: 50px 0;
+}
+
+nav {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+article {
+  flex: 3;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+aside {
+  flex: 1;
+  padding: 20px;
+  background-color: #e4e4e4;
+}
+
+.photos {
+  list-style: none;
+  padding: 0;
+}
+
+.photos li {
+  margin-bottom: 10px;
+}
+
+.feature {
+  width: 100%;
+  max-width: 600px;
+}
+
+
+
